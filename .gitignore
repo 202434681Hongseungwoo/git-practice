@@ -1,3 +1,27 @@
-*.d
+# 운영체제별 무시 파일
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# 로그 파일
+*.log
+
+# 빌드 결과물
+/build/
+/dist/
+
+# 패키지 매니저 폴더
+node_modules/
+
+# 환경 설정 파일
+.env
+
+# 컴파일된 바이너리
 *.o
-*exe
+*.so
+*.pyc
